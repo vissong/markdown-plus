@@ -19,6 +19,6 @@
    "options_page": "options.html",
    "permissions": [ "storage", "tabs", "\u003Call_urls\u003E" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "103",
+   "version": "104",
    "web_accessible_resources": [ "noprint.css", "js/jquery.js", "bootstrap.min.css", "theme/dzplatrd.css", "theme/Clearness.css", "theme/ClearnessDark.css", "theme/Github.css", "theme/TopMarks.css", "theme/i/cal.png", "theme/i/compass.png", "theme/i/doc.png", "theme/i/email.png", "theme/i/folder.png", "js/popup.js", "js/options.js" ]
 }
