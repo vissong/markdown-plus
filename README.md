@@ -1,3 +1,17 @@
+# markdown preview plus - dz特别版
+
+该扩展是根据 markdown preview plus 优化而来，增加了专门的样式和新的功能。
+
+## ChangeLog
+
+* 104 样式优化，目录增加折叠功能
+* 103 增加注释功能
+    
+
+--------
+以下是原版README
+--------
+
 # Markdown Preview Plus
 
 Automatically parses markdown files (.md) into HTML. This is useful
