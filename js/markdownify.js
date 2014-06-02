@@ -42,8 +42,8 @@
             var html = [];
 
             console.log(list);
-            html.push('<p>目录，打印时自动隐藏</p>');
-            html.push('<dl>');
+            html.push('<p>目录，打印时自动隐藏 <a href="javascript:;" id="toggle">折叠</a></p>');
+            html.push('<dl id="menu_content">');
             for(var i = 0, len = list.length; i<len; ++i) {
                 var v = list[i];
                 console.log(v);
@@ -64,6 +64,11 @@
                 window.scrollTo(0, $('#' + jumpId).offset().top);
 
                 return false;
+            });
+
+            // 目录折叠
+            $('#toggle').on('click', function() {
+                $('#menu_content').toggle();
             });
         }
     };
